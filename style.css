@@ -1,0 +1,38 @@
+body{
+    background-color: azure;
+}
+h1{
+    color: #a2d2df;
+}
+.card{
+    width: 80rem;
+    margin-left: 100px;
+    margin-top: 15px;
+    background-color: aliceblue;
+    transition: width 2s;
+}
+.card:hover {
+    width: 800px;
+    background: rgba(0, 0.2, 0, 0.2);
+}
+.card-title{
+        color:#257ca3;
+        font-size: 25px;
+}
+.card-text{
+    font-size: 18px;
+}
+li{
+    list-style-type: circle;
+    font-size: 18px;
+  }
+
+.active{
+        color:#17a2b8;
+        font-size: 25px;
+}
+#nextBtn{
+    margin :30px 0 50px 550px;
+    width: 20%;
+    height:80px;
+}
